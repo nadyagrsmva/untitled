@@ -102,7 +102,7 @@ public class RecordCountry2 {
     public static void main(String[] args) { // ГЛАВНЫЙ КЛАСС С МЕТОДАМИ
         Scanner sc=new Scanner(System.in,"cp1251");
         System.out.print("Введите количество стран=> ");
-        int n=sc.nextInt(); // количество стран         
+        int n=sc.nextInt(); // количество стран
         Strana country[]= setCountryArr(n); // ввод информации о странах
 
         System.out.println("\nХарактеристики стран:");
